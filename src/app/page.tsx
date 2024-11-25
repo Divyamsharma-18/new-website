@@ -33,7 +33,7 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <Faq />
-      <Team />
+      <Team showAll={false} />
       <HomeBlogSection posts={posts} />
       <Contact />
       <Clients />

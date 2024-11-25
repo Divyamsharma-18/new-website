@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <main>
-      <Breadcrumb pageName="About Us Page" />
+      {/* <Breadcrumb pageName="About Us Page" /> */}
       <About />
-      <Team />
+      <Team showAll={true} />
     </main>
   );
 };
